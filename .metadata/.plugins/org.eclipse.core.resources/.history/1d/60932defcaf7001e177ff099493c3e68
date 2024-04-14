@@ -1,0 +1,29 @@
+package com.atm;
+
+public class Atm implements AtmInterface{
+
+	@Override
+	public void transaction() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deposit(double amt) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void withdraw(double amt) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void transfer(long accountNo, double amt) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

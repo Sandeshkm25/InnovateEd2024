@@ -1,0 +1,16 @@
+package com.atm;
+
+import java.util.ArrayList;
+
+public class Database {
+
+	int id=0;
+	public void add(Customer c)
+	{
+		id++;
+		c.setUserId(id);
+		ArrayList<Customer> a=new ArrayList<Customer>();
+		a.add(c);
+	}
+	
+}

@@ -1,0 +1,19 @@
+package com.reverse;
+
+import java.util.Arrays;
+
+public class ReverseString {
+ public static void reverse(String s)
+ {
+	 char a[]=new char[s.length()];
+	 int b=s.length()-1;
+	 for(int i=0;i<s.length();i++)
+	 {
+		 a[b]=s.charAt(i);
+	 }
+	 Arrays.toString(a);
+ }
+ public static void main(String[] args) {
+	reverse("sandu");
+}
+}

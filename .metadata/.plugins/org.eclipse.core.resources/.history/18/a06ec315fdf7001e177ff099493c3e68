@@ -1,0 +1,12 @@
+package com.bank;
+
+public class User {
+
+	public static void main(String[] args) {
+		Account a=new Account("sandesh", 5678, 1234," issuru", 0);
+		Service s=new Service();
+		s.deposit(1000);
+		s.withdraw(100);
+		s.checkBalance();
+	}
+}

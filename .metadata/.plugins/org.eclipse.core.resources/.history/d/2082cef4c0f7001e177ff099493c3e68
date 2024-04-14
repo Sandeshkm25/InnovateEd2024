@@ -1,0 +1,45 @@
+package com.atm;
+
+import java.util.ArrayList;
+
+public class Database {
+
+	int id=0;
+	ArrayList<Customer> a=new ArrayList<Customer>();
+	public void add(Customer c)
+	{
+		id++;
+		c.setUserId(id);
+		
+		a.add(c);
+		System.out.println(c);
+	}
+	public void remove(int id)
+	{
+		a.remove(id-1);
+		System.out.println("removed");
+	}
+	public void showAll()
+	{
+		for(Customer c:a)
+		{
+			System.out.println(c);
+		}
+	}
+	public void showById(int id)
+	{
+		System.out.println(a.get(id-1));
+	}
+	
+	public boolean contains(Customer c)
+	{
+		String name=c.getUserName();
+		for(Customer c1:a)
+		{
+			if(c1.getUserName().equals(name)) {
+				return true;
+			}
+		}
+		return false;
+	}
+}

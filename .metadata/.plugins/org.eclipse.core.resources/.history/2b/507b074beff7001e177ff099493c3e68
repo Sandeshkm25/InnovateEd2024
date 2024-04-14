@@ -1,0 +1,13 @@
+package com.reverse;
+
+public class ReverseString {
+ public void reverse(String s)
+ {
+	 char a[]=new char[s.length()];
+	 int a=s.length()-1;
+	 for(int i=0;i<s.length();i++)
+	 {
+		 a[]
+	 }
+ }
+}

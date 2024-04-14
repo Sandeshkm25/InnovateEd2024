@@ -1,0 +1,34 @@
+package com.atm;
+
+public class Customer {
+
+	private String userId;
+	private int password;
+	public Customer(String userId, int password) {
+		super();
+		this.userId = userId;
+		this.password = password;
+	}
+	public Customer() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public String getUserId() {
+		return userId;
+	}
+	public void setUserId(String userId) {
+		this.userId = userId;
+	}
+	public int getPassword() {
+		return password;
+	}
+	public void setPassword(int password) {
+		this.password = password;
+	}
+	@Override
+	public String toString() {
+		return "Customer [userId=" + userId + ", password=" + password + "]";
+	}
+	
+	
+}

@@ -1,0 +1,28 @@
+package com.atm;
+
+public class Atm {
+	public static void main(String[] args) {
+
+		Database database=new Database();
+		Customer customer=new Customer();
+		customer.setUserName("sandesh");
+		customer.setPassword(1233);
+		database.add(customer);
+		SecurityCheck check=new SecurityCheck();
+		Customer c3=new Customer();
+		c3.setPassword(222);
+		c3.setUserName("sss");
+		database.add(c3);
+		//database.remove(2);
+		Customer c4=new Customer();
+		c3.setPassword(222);
+		c3.setUserName("ss");
+		
+		database.showAll();
+		if(check.check(c4)) {
+			System.out.println("true");
+		}
+		else
+			System.out.println("false");
+	}
+}

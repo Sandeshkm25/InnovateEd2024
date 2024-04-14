@@ -1,0 +1,14 @@
+package com.atm;
+
+public class SecurityCheck {
+   Database database=new Database();
+	public boolean check(String name,int password)
+	{
+		if(database.contains(name,password))
+		{
+			database.c1=c;
+			return true;
+		}
+		return false;
+	}
+}

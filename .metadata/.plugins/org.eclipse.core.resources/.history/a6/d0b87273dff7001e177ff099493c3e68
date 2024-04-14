@@ -1,0 +1,35 @@
+package com.atm;
+
+public class Service {
+      AtmInterface atmInterface;
+	public void add(Customer c) {
+		
+		atmInterface.
+	}
+
+	public void remove(int id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void deposit(int amt) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void withdraw(int amt1) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void transfer(long accNo, int amt3) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void transaction() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
